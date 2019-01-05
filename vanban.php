@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>HỆ THỐNG QUẢN LÝ TRƯỜNG HỌC </title>
+    <title>HỆ THỐNG QUẢN PHÂN LOẠI VĂN BẢN </title>
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
@@ -47,19 +47,7 @@ $(document).ready(function(){
 	</div>
         <div id="cottrai"></div>
         <div id="cotgiua"> <br />
-		<form action="result_truonghoc.php" method="post"> 
-			<select name="truonghoc[]" onchange="showtruonghoc(this.value)">
-				<option value="">danh sách trường học:</option>
-				<option selected="selected" value="khtn">Chuyên Hùng Vương BD</option>
-				<option value="khxh ">Nguyễn Khuyến BD</option>
-				<option value="tkm" id="demo">Chuyên Lê Quý Đôn</option>
-				<option value="kts">Chuyên Đại Học Bách Khoa TPHCM</option>
-				<option value="nt">Chuyên Văn hóa Nghệ thuật</option>	
-			</select>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-			<input type="submit" name="submit"  value="Get Selected Values"/>
-		</form><br/>
+		
 		<br/>
 		<p><a href="index.php">về trang chủ</a></p>
         </div>
