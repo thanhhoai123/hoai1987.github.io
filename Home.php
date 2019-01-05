@@ -19,12 +19,6 @@
             <div class="buom1">
                 <img src="images/anhdong.gif" width="100px" />
             </div>
-            <div class="anhdong">
-                <img src="images/maucam.jpg" />
-            </div>
-            <div class="wellcome">
-                <img src="images/xanhduong.jpg" width="300px" />
-            </div>
         </div>
         <div id="menungang">
 		<nav >
